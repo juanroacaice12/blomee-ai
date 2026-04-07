@@ -2,16 +2,12 @@
 
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import Petals from "@/components/Petals";
 
 export default function Home() {
   const router = useRouter();
 
   return (
     <div className="relative h-screen flex flex-col items-center justify-center overflow-hidden bg-[#F5F1EA]">
-
-      {/* 🌸 pétalos */}
-      <Petals />
 
       {/* 🌼 watermark */}
       <img
